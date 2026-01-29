@@ -3,7 +3,9 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2025 Md Rafiqul Islam. All Rights Reserved.</p>
+      <div className="footer-container">
+        <p>© 2025 Md Rafiqul Islam. All Rights Reserved.</p>
+      </div>
     </footer>
   );
 }

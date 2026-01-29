@@ -3,22 +3,30 @@ import React from 'react';
 function Skills() {
   // Updated skill proficiency percentages (adjustable)
   const skills = [
-    { name: 'Android Studio', level: 85 },
-    { name: 'Java', level: 90 },
-    { name: 'C', level: 80 },
-    { name: 'Python', level: 85 },
-    { name: 'Flutter', level: 92 },
-    { name: 'HTML & CSS', level: 96 },
-    { name: 'SQL', level: 78 },
-  { name: 'MongoDB', level: 88 },
-  { name: 'PostgreSQL', level: 85 },
-  { name: 'MySQL', level: 82 },
-    { name: 'AdSense & ADX', level: 92 },
-    { name: 'Digital Marketing', level: 96 },
-    { name: 'Search Arbitrage', level: 93 },
-    { name: 'React Native', level: 75 },
-    { name: 'Wordpress', level: 95 },
-    { name: 'Spring Boot', level: 88 }
+    { name: 'Golang with Gin', },
+    { name: 'AWS', },
+
+    { name: 'Android Studio', },
+    { name: 'Java', },
+    { name: 'C', },
+    { name: 'Python', },
+    { name: 'Flutter', },
+    { name: 'HTML & CSS', },
+    { name: 'SQL', },
+    { name: 'MongoDB', },
+    { name: 'PostgreSQL', },
+    { name: 'MySQL', },
+    { name: 'AdSense & ADX', },
+    { name: 'Digital Marketing', },
+    { name: 'Search Arbitrage', },
+    { name: 'React Native', },
+    { name: 'Nuxt JS', },
+    { name: 'Node JS', },
+    { name: 'Express JS', },
+    { name: 'Docker', },
+    { name: 'Wordpress', },
+    { name: 'Spring Boot', }
+
   ];
 
   return (
@@ -29,6 +37,8 @@ function Skills() {
           <div
             key={skill.name}
             className="skill-card"
+            data-aos="zoom-in"
+            data-aos-delay="100"
             role="group"
             aria-label={`${skill.name} skill ${skill.level} percent`}
             title={`${skill.name} — ${skill.level}%`}
